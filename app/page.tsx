@@ -152,12 +152,11 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="space-y-8 max-w-xl">
               <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.05] tracking-tight">
-                A reputação do seu negócio, num só painel
+                Melhore a sua avaliação no Google com IA
               </h1>
               <p className="text-xl text-zinc-600 leading-relaxed">
-                Gestão simples de reviews para restaurantes, clínicas e pequenos negócios. 
-                Veja todos os seus reviews, receba alertas e responda com IA em segundos. 
-                Sem complicações técnicas.
+                Respostas inteligentes e análise automática dos seus Google Reviews para ajudar o seu negócio a subir a classificação no Google. 
+                Sem complicações técnicas, pensado para negócios locais em Portugal e Espanha.
               </p>
               
               {/* Diferenciação Local PT/ES */}
@@ -259,8 +258,7 @@ export default function Home() {
       <section className="py-16 px-4 sm:px-6 lg:px-8 bg-zinc-50">
         <div className="container mx-auto max-w-4xl text-center">
           <p className="text-2xl lg:text-3xl font-medium text-gray-900 leading-relaxed">
-            Gerir a reputação online do seu negócio não precisa de ser complicado. 
-            Veja todos os seus reviews, entenda o que os clientes pensam e responda rapidamente — tudo num só lugar.
+            Recolha os seus Google Reviews, compreenda o que os clientes pensam e aja com respostas inteligentes que melhoram a sua reputação.
           </p>
         </div>
       </section>
@@ -273,113 +271,91 @@ export default function Home() {
               O Produto
             </h2>
             <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
-              Tudo o que precisa para gerir a reputação do seu negócio, pensado para quem não tem tempo para complicações técnicas.
+              Recolha os seus Google Reviews, compreenda o que os clientes pensam e aja com respostas inteligentes que melhoram a sua reputação.
             </p>
           </div>
 
-          {/* Módulo 1: Reviews */}
+          {/* Módulo 1: Recolher Google Reviews */}
           <div className="mb-32">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div className="order-2 lg:order-1">
+              <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
-                  Reviews num só lugar
+                  Todos os seus Google Reviews num só lugar
                 </h3>
                 <p className="text-lg text-zinc-600 leading-relaxed mb-6">
-                  Veja todos os seus reviews do Google, Facebook e outras plataformas num único painel. 
-                  Organize, filtre e encontre rapidamente o que procura, sem ter de navegar entre várias aplicações.
+                  Veja todos os seus Google Reviews organizados num único painel. 
+                  Filtre por data, avaliação ou localização e encontre rapidamente o que procura, sem ter de navegar entre várias aplicações.
                 </p>
               </div>
-              <div className="order-1 lg:order-2">
+              <div>
                 <ProductShot
                   src="/landing/pagina_review.png"
-                  alt="Reviews num só lugar"
+                  alt="Lista de Google Reviews"
                   priority
                 />
               </div>
             </div>
           </div>
 
-          {/* Módulo 2: Detalhe do Review */}
-          <div className="mb-32">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div>
-                <ProductShot
-                  src="/landing/DetalhesReview.png"
-                  alt="Detalhe do review e pontos-chave"
-                />
-              </div>
-              <div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
-                  Detalhe do review e pontos-chave
-                </h3>
-                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
-                  Cada review mostra os pontos-chave identificados automaticamente pela IA. 
-                  Saiba rapidamente o que o cliente destacou, sem ter de ler tudo palavra por palavra.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Módulo 3: Alertas */}
-          <div className="mb-32">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div className="order-2 lg:order-1">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
-                  Alertas automáticos
-                </h3>
-                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
-                  Configure alertas personalizados e seja notificado quando reviews importantes chegarem. 
-                  Não perca nenhuma oportunidade de responder e melhorar a experiência dos seus clientes.
-                </p>
-              </div>
-              <div className="order-1 lg:order-2">
-                <ProductShot
-                  src="/landing/AlertasReviews.png"
-                  alt="Alertas automáticos"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* Módulo 4: Análise de Sentimento */}
+          {/* Módulo 2: Análise de Sentimento */}
           <div className="mb-32">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
               <div>
                 <ProductShot
                   src="/landing/AnaliseSentimentos.png"
-                  alt="Análise de sentimento"
+                  alt="Análise de sentimento e temas"
                 />
               </div>
               <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
-                  Análise de sentimento e temas automáticos
+                  Compreenda o que os clientes pensam ao longo do tempo
                 </h3>
                 <p className="text-lg text-zinc-600 leading-relaxed mb-6">
-                  Compreenda a evolução do sentimento dos seus clientes ao longo do tempo. 
-                  A nossa IA identifica automaticamente temas e palavras-chave (como "comida", "serviço", "ambiente") 
-                  para que saiba <strong className="text-gray-900">exatamente onde investir para subir o seu rating no Google</strong>.
+                  A nossa IA analisa automaticamente o sentimento e identifica temas recorrentes nos seus Google Reviews. 
+                  Veja a evolução de temas como "comida", "serviço" ou "ambiente" ao longo do tempo e saiba <strong className="text-gray-900">exatamente onde investir para subir o seu rating no Google</strong>.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* Módulo 5: KPIs */}
-          <div>
+          {/* Módulo 3: Respostas com IA */}
+          <div className="mb-32">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div className="order-2 lg:order-1">
+              <div>
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
-                  KPIs e métricas de reputação
+                  Respostas com IA em segundos
                 </h3>
                 <p className="text-lg text-zinc-600 leading-relaxed mb-6">
-                  Acompanhe métricas essenciais como classificação média, taxa de resposta e tempo médio de resposta. 
-                  Veja a evolução da sua reputação ao longo do tempo, tudo num só lugar.
+                  Responda aos seus Google Reviews em segundos com respostas personalizadas geradas por IA. 
+                  A nossa IA usa o contexto e o sentimento de cada review para criar respostas que respeitam o tom de voz do seu negócio e ajudam a melhorar a sua avaliação no Google.
                 </p>
               </div>
-              <div className="order-1 lg:order-2">
+              <div>
+                <ProductShot
+                  src="/landing/DetalhesReview.png"
+                  alt="Responder reviews com IA"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* Módulo 4: Impacto e Métricas */}
+          <div>
+            <div className="grid lg:grid-cols-2 gap-16 items-center">
+              <div>
                 <ProductShot
                   src="/landing/ReviewsQnt.png"
                   alt="KPIs e métricas de reputação"
                 />
+              </div>
+              <div>
+                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
+                  Melhore a sua avaliação no Google
+                </h3>
+                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
+                  Acompanhe métricas essenciais como classificação média, taxa de resposta e tempo médio de resposta nos seus Google Reviews. 
+                  Detete precocemente padrões negativos e tome decisões informadas que melhoram a experiência dos clientes e aumentam a sua classificação no Google.
+                </p>
               </div>
             </div>
           </div>
@@ -477,10 +453,10 @@ export default function Home() {
           <div className="bg-gradient-to-br from-purple-50 to-white rounded-2xl border border-purple-100 p-8 sm:p-12">
             <div className="text-center mb-8">
               <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
-                Respostas inteligentes em segundos
+                Tudo o que precisa para melhorar a sua avaliação no Google
               </h2>
               <p className="text-xl text-zinc-600 mb-6">
-                Economize horas de trabalho com gestão profissional da sua reputação online
+                Respostas inteligentes e análise automática para ajudar negócios locais em Portugal e Espanha a subir a classificação no Google.
               </p>
               {/* Mensagem neutra sobre planos */}
               <p className="text-base text-zinc-600">
@@ -496,7 +472,7 @@ export default function Home() {
                   Respostas com IA em segundos
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Gere respostas profissionais personalizadas que respeitam o tom de voz do seu negócio. 
+                  Responda aos seus Google Reviews rapidamente com respostas personalizadas geradas por IA. 
                   Pronto em segundos, não em horas.
                 </p>
               </div>
@@ -505,11 +481,11 @@ export default function Home() {
                   <CheckCircle2Icon className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Contexto e pontos-chave em cada review
+                  Compreenda o que os clientes pensam
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  A nossa IA identifica automaticamente os temas principais de cada review, 
-                  para que saiba exatamente o que os clientes destacaram.
+                  Veja a evolução do sentimento e temas recorrentes nos seus Google Reviews ao longo do tempo. 
+                  Saiba exatamente onde investir para melhorar.
                 </p>
               </div>
               <div className="bg-white rounded-xl border border-zinc-200 p-6 shadow-sm">
@@ -517,11 +493,11 @@ export default function Home() {
                   <FileTextIcon className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Todos os reviews num só lugar
+                  Métricas e decisões estratégicas
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Centralize reviews do Google, Facebook e outras plataformas num único painel. 
-                  Não precisa de abrir várias aplicações.
+                  Acompanhe classificação média, taxa de resposta e outras métricas essenciais. 
+                  Detete padrões e tome decisões que melhoram a sua avaliação no Google.
                 </p>
               </div>
             </div>
