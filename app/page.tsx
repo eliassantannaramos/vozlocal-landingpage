@@ -147,23 +147,17 @@ export default function Home() {
       </header>
 
       {/* Hero Section - 2 colunas */}
-      <section className="pt-32 pb-20 px-4 sm:px-6 lg:px-8">
+      <section className="pt-20 pb-12 sm:pt-24 sm:pb-16 lg:pt-32 lg:pb-20 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-7xl">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8 max-w-xl">
-              <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-[1.05] tracking-tight">
+          <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
+            <div className="space-y-6 sm:space-y-8 max-w-xl">
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-[1.05] tracking-tight">
                 Melhore a sua avaliação no Google com IA
               </h1>
-              <p className="text-xl text-zinc-600 leading-relaxed">
+              <p className="text-lg sm:text-xl text-zinc-600 leading-relaxed">
                 Respostas inteligentes e análise automática dos seus Google Reviews para ajudar o seu negócio a subir a classificação no Google. 
-                Sem complicações técnicas, pensado para negócios locais em Portugal e Espanha.
+                Sem complicações técnicas, pensado para negócios locais.
               </p>
-              
-              {/* Diferenciação Local PT/ES */}
-              <div className="flex items-center gap-3 text-sm text-zinc-600 bg-purple-50 rounded-lg px-4 py-2.5 w-fit border border-purple-100">
-                <ShieldIcon className="w-4 h-4 text-purple-600 flex-shrink-0" />
-                <span className="font-medium">Plataforma 100% adaptada ao mercado de Portugal e Espanha</span>
-              </div>
               
               {/* Waitlist Form */}
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -255,7 +249,7 @@ export default function Home() {
       </section>
 
       {/* Secção de Framing - Contexto do Problema */}
-      <section className="py-16 px-4 sm:px-6 lg:px-8 bg-zinc-50">
+      <section className="py-10 sm:py-14 lg:py-16 px-4 sm:px-6 lg:px-8 bg-zinc-50">
         <div className="container mx-auto max-w-4xl text-center">
           <p className="text-2xl lg:text-3xl font-medium text-gray-900 leading-relaxed">
             Recolha os seus Google Reviews, compreenda o que os clientes pensam e aja com respostas inteligentes que melhoram a sua reputação.
@@ -264,25 +258,25 @@ export default function Home() {
       </section>
 
       {/* Secção O Produto - Módulos Funcionais */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8">
+      <section className="py-12 sm:py-16 lg:py-24 px-4 sm:px-6 lg:px-8">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+          <div className="text-center mb-12 sm:mb-16 lg:mb-20">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
               O Produto
             </h2>
-            <p className="text-xl text-zinc-600 max-w-2xl mx-auto">
+            <p className="text-lg sm:text-xl text-zinc-600 max-w-2xl mx-auto">
               Recolha os seus Google Reviews, compreenda o que os clientes pensam e aja com respostas inteligentes que melhoram a sua reputação.
             </p>
           </div>
 
           {/* Módulo 1: Recolher Google Reviews */}
-          <div className="mb-32">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="mb-16 sm:mb-24 lg:mb-32">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
                   Todos os seus Google Reviews num só lugar
                 </h3>
-                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
+                <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
                   Veja todos os seus Google Reviews organizados num único painel. 
                   Filtre por data, avaliação ou localização e encontre rapidamente o que procura, sem ter de navegar entre várias aplicações.
                 </p>
@@ -298,8 +292,8 @@ export default function Home() {
           </div>
 
           {/* Módulo 2: Análise de Sentimento */}
-          <div className="mb-32">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="mb-16 sm:mb-24 lg:mb-32">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="order-last lg:order-first">
                 <ProductShot
                   src="/landing/AnaliseSentimentos.png"
@@ -307,10 +301,10 @@ export default function Home() {
                 />
               </div>
               <div className="order-first lg:order-last">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
                   Compreenda o que os clientes pensam ao longo do tempo
                 </h3>
-                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
+                <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
                   A nossa IA analisa automaticamente o sentimento e identifica temas recorrentes nos seus Google Reviews. 
                   Veja a evolução de temas como "comida", "serviço" ou "ambiente" ao longo do tempo e saiba <strong className="text-gray-900">exatamente onde investir para subir o seu rating no Google</strong>.
                 </p>
@@ -319,13 +313,13 @@ export default function Home() {
           </div>
 
           {/* Módulo 3: Respostas com IA */}
-          <div className="mb-32">
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="mb-16 sm:mb-24 lg:mb-32">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div>
-                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
                   Respostas com IA em segundos
                 </h3>
-                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
+                <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
                   Responda aos seus Google Reviews em segundos com respostas personalizadas geradas por IA. 
                   A nossa IA usa o contexto e o sentimento de cada review para criar respostas que respeitam o tom de voz do seu negócio e ajudam a melhorar a sua avaliação no Google.
                 </p>
@@ -341,7 +335,7 @@ export default function Home() {
 
           {/* Módulo 4: Impacto e Métricas */}
           <div>
-            <div className="grid lg:grid-cols-2 gap-16 items-center">
+            <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="order-last lg:order-first">
                 <ProductShot
                   src="/landing/ReviewsQnt.png"
@@ -349,10 +343,10 @@ export default function Home() {
                 />
               </div>
               <div className="order-first lg:order-last">
-                <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
+                <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
                   Melhore a sua avaliação no Google
                 </h3>
-                <p className="text-lg text-zinc-600 leading-relaxed mb-6">
+                <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
                   Acompanhe métricas essenciais como classificação média, taxa de resposta e tempo médio de resposta nos seus Google Reviews. 
                   Detete precocemente padrões negativos e tome decisões informadas que melhoram a experiência dos clientes e aumentam a sua classificação no Google.
                 </p>
@@ -363,13 +357,13 @@ export default function Home() {
       </section>
 
       {/* Secção de Credibilidade / Prova Visual */}
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50">
+      <section className="py-12 sm:py-16 lg:py-24 px-4 sm:px-6 lg:px-8 bg-zinc-50">
         <div className="container mx-auto max-w-6xl">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+          <div className="text-center mb-10 sm:mb-12 lg:mb-16">
+            <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
               O que dizem os primeiros utilizadores
             </h2>
-            <p className="text-xl text-zinc-600">
+            <p className="text-lg sm:text-xl text-zinc-600">
               Negócios que já estão a usar o VozLocal estão a ver melhorias na gestão da sua reputação
             </p>
           </div>
@@ -448,15 +442,15 @@ export default function Home() {
       </section>
 
       {/* Secção de Valor - Respostas com IA */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section className="py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="container mx-auto max-w-5xl">
-          <div className="bg-gradient-to-br from-purple-50 to-white rounded-2xl border border-purple-100 p-8 sm:p-12">
-            <div className="text-center mb-8">
-              <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+          <div className="bg-gradient-to-br from-purple-50 to-white rounded-2xl border border-purple-100 p-6 sm:p-8 lg:p-12">
+            <div className="text-center mb-6 sm:mb-8">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
                 Tudo o que precisa para melhorar a sua avaliação no Google
               </h2>
-              <p className="text-xl text-zinc-600 mb-6">
-                Respostas inteligentes e análise automática para ajudar negócios locais em Portugal e Espanha a subir a classificação no Google.
+              <p className="text-lg sm:text-xl text-zinc-600 mb-4 sm:mb-6">
+                Respostas inteligentes e análise automática para ajudar negócios locais a subir a classificação no Google.
               </p>
               {/* Mensagem neutra sobre planos */}
               <p className="text-base text-zinc-600">
@@ -506,20 +500,15 @@ export default function Home() {
       </section>
 
       {/* CTA Final */}
-      <section id="waitlist-form" className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-purple-50 via-white to-white">
+      <section id="waitlist-form" className="py-12 sm:py-16 lg:py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-b from-purple-50 via-white to-white">
         <div className="container mx-auto max-w-3xl">
-          <div className="bg-white rounded-2xl border border-zinc-200 shadow-xl p-8 sm:p-12">
-            <div className="text-center mb-8">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4 tracking-tight">
+          <div className="bg-white rounded-2xl border border-zinc-200 shadow-xl p-6 sm:p-8 lg:p-12">
+            <div className="text-center mb-6 sm:mb-8">
+              <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
                 Estamos a abrir acesso antecipado
               </h2>
-              <p className="text-xl text-zinc-600 mb-2">
-                Para negócios locais em Portugal e Espanha
-              </p>
-              {/* Diferenciação Local */}
-              <p className="text-sm text-zinc-500 flex items-center justify-center gap-2 mt-4">
-                <ShieldIcon className="w-4 h-4 text-purple-600" />
-                <span>Suporte prioritário na sua língua</span>
+              <p className="text-lg sm:text-xl text-zinc-600 mb-2">
+                Para negócios locais
               </p>
             </div>
             
