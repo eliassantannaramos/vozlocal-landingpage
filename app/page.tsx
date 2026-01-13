@@ -155,8 +155,7 @@ export default function Home() {
                 Melhore a sua avaliação no Google com IA
               </h1>
               <p className="text-lg sm:text-xl text-zinc-600 leading-relaxed">
-                Respostas inteligentes e análise automática dos seus Google Reviews para ajudar o seu negócio a subir a classificação no Google. 
-                Sem complicações técnicas, pensado para negócios locais.
+                Responda melhor aos Google Reviews e compreenda o que os seus clientes pensam — sem perder horas todas as semanas.
               </p>
               
               {/* Waitlist Form */}
@@ -201,7 +200,7 @@ export default function Home() {
                     disabled={isSubmitting}
                     className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-lg hover:from-purple-700 hover:to-purple-800 transition-all font-medium disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
                   >
-                    {isSubmitting ? "A processar..." : "Entrar na lista de espera"}
+                    {isSubmitting ? "A processar..." : "Pedir acesso antecipado"}
                   </button>
                   {/* Mensagem de Early Access */}
                   <div className="space-y-2">
@@ -209,7 +208,7 @@ export default function Home() {
                       <span className="text-purple-700 font-semibold text-sm">Acesso antecipado</span>
                     </div>
                     <p className="text-sm text-zinc-600">
-                      Os primeiros inscritos terão vantagens exclusivas no lançamento.
+                      Acesso antecipado e condições especiais para negócios locais.
                     </p>
                   </div>
                 </div>
@@ -237,7 +236,7 @@ export default function Home() {
                     playsInline
                     poster="/landing/pagina_review.png"
                     className="w-full h-auto"
-                    aria-label="Demonstração da plataforma VozLocal mostrando gestão de reviews"
+                    aria-label="Demonstração da plataforma VozLocal mostrando gestão de Google Reviews"
                   >
                     <source src="/landing/ReviewsDetailsDemo.mov" type="video/quicktime" />
                   </video>
@@ -274,11 +273,10 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                  Todos os seus Google Reviews num só lugar
+                  Os seus Google Reviews organizados
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
-                  Veja todos os seus Google Reviews organizados num único painel. 
-                  Filtre por data, avaliação ou localização e encontre rapidamente o que procura, sem ter de navegar entre várias aplicações.
+                  Veja todos os seus Google Reviews num único painel. Organize, filtre e encontre rapidamente o que procura, sem perder tempo.
                 </p>
               </div>
               <div>
@@ -302,11 +300,10 @@ export default function Home() {
               </div>
               <div className="order-first lg:order-last">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                  Compreenda o que os clientes pensam ao longo do tempo
+                  Compreenda o que os clientes realmente pensam
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
-                  A nossa IA analisa automaticamente o sentimento e identifica temas recorrentes nos seus Google Reviews. 
-                  Veja a evolução de temas como "comida", "serviço" ou "ambiente" ao longo do tempo e saiba <strong className="text-gray-900">exatamente onde investir para subir o seu rating no Google</strong>.
+                  Acompanhe sentimentos, temas recorrentes e métricas ao longo do tempo para saber onde melhorar e aumentar a sua classificação no Google.
                 </p>
               </div>
             </div>
@@ -321,13 +318,13 @@ export default function Home() {
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
                   Responda aos seus Google Reviews em segundos com respostas personalizadas geradas por IA. 
-                  A nossa IA usa o contexto e o sentimento de cada review para criar respostas que respeitam o tom de voz do seu negócio e ajudam a melhorar a sua avaliação no Google.
+                  Adapte o tom de voz e o comprimento, e publique diretamente no Google. Pronto em segundos, não em horas.
                 </p>
               </div>
               <div>
                 <ProductShot
                   src="/landing/DetalhesReview.png"
-                  alt="Responder reviews com IA"
+                  alt="Responder Google Reviews com IA"
                 />
               </div>
             </div>
@@ -348,7 +345,7 @@ export default function Home() {
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
                   Acompanhe métricas essenciais como classificação média, taxa de resposta e tempo médio de resposta nos seus Google Reviews. 
-                  Detete precocemente padrões negativos e tome decisões informadas que melhoram a experiência dos clientes e aumentam a sua classificação no Google.
+                  Veja como a sua avaliação no Google evolui ao longo do tempo e identifique tendências que ajudam a melhorar a sua reputação.
                 </p>
               </div>
             </div>
@@ -379,7 +376,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-zinc-700 mb-4 leading-relaxed">
-                "Finalmente consigo ver todos os meus reviews num só lugar. A resposta com IA poupa-me horas todos os dias."
+                "Finalmente consigo ver todos os meus Google Reviews num só lugar. A resposta com IA poupa-me horas todos os dias."
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
@@ -402,7 +399,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-zinc-700 mb-4 leading-relaxed">
-                "Os alertas automáticos são incríveis. Agora não perco nenhum review negativo e consigo responder rapidamente."
+                "Os alertas automáticos são incríveis. Agora não perco nenhum Google Review negativo e consigo responder rapidamente."
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
@@ -450,11 +447,11 @@ export default function Home() {
                 Tudo o que precisa para melhorar a sua avaliação no Google
               </h2>
               <p className="text-lg sm:text-xl text-zinc-600 mb-4 sm:mb-6">
-                Respostas inteligentes e análise automática para ajudar negócios locais a subir a classificação no Google.
+                Responda mais rápido, compreenda padrões e melhore a sua reputação no Google com decisões mais informadas.
               </p>
               {/* Mensagem neutra sobre planos */}
               <p className="text-base text-zinc-600">
-                Planos simples e acessíveis para negócios locais. Preço final no lançamento.
+                Pensado para PMEs locais. Planos simples e acessíveis para negócios locais que querem melhorar a sua reputação no Google sem complicações técnicas.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
@@ -466,8 +463,7 @@ export default function Home() {
                   Respostas com IA em segundos
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Responda aos seus Google Reviews rapidamente com respostas personalizadas geradas por IA. 
-                  Pronto em segundos, não em horas.
+                  Gere respostas personalizadas com IA, ajustadas ao tom do seu negócio, para elogios e críticas. Poupe tempo e mantenha uma comunicação profissional.
                 </p>
               </div>
               <div className="bg-white rounded-xl border border-zinc-200 p-6 shadow-sm">
@@ -475,11 +471,10 @@ export default function Home() {
                   <CheckCircle2Icon className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Compreenda o que os clientes pensam
+                  Contexto e pontos-chave em cada review
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Veja a evolução do sentimento e temas recorrentes nos seus Google Reviews ao longo do tempo. 
-                  Saiba exatamente onde investir para melhorar.
+                  A nossa IA identifica automaticamente os pontos principais de cada Google Review para responder com mais precisão e consistência.
                 </p>
               </div>
               <div className="bg-white rounded-xl border border-zinc-200 p-6 shadow-sm">
@@ -487,11 +482,10 @@ export default function Home() {
                   <FileTextIcon className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Métricas e decisões estratégicas
+                  Os seus Google Reviews organizados
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Acompanhe classificação média, taxa de resposta e outras métricas essenciais. 
-                  Detete padrões e tome decisões que melhoram a sua avaliação no Google.
+                  Veja todos os seus Google Reviews num painel simples e organizado, para encontrar rapidamente o que precisa e não perder nenhum feedback importante.
                 </p>
               </div>
             </div>
@@ -508,7 +502,7 @@ export default function Home() {
                 Estamos a abrir acesso antecipado
               </h2>
               <p className="text-lg sm:text-xl text-zinc-600 mb-2">
-                Para negócios locais
+                Estamos a convidar um número limitado de negócios locais para testar o VozLocal antes do lançamento público.
               </p>
             </div>
             
@@ -558,7 +552,7 @@ export default function Home() {
                 {/* Mensagem de Early Adopters */}
                 <div className="space-y-2 text-center">
                   <p className="text-sm text-zinc-600">
-                    Vantagens exclusivas para early adopters no lançamento.
+                    Condições especiais para early adopters no lançamento.
                   </p>
                 </div>
               </div>
