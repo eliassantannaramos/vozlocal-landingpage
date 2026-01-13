@@ -233,7 +233,7 @@ export default function Home() {
             </div>
 
             {/* Video with Browser Frame */}
-            <div className="order-first lg:order-last">
+            <div className="order-last lg:order-last">
               <BrowserFrame>
                 <div className="relative w-full bg-zinc-50">
                   <video
@@ -300,13 +300,13 @@ export default function Home() {
           {/* Módulo 2: Análise de Sentimento */}
           <div className="mb-32">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div>
+              <div className="order-last lg:order-first">
                 <ProductShot
                   src="/landing/AnaliseSentimentos.png"
                   alt="Análise de sentimento e temas"
                 />
               </div>
-              <div>
+              <div className="order-first lg:order-last">
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
                   Compreenda o que os clientes pensam ao longo do tempo
                 </h3>
@@ -342,13 +342,13 @@ export default function Home() {
           {/* Módulo 4: Impacto e Métricas */}
           <div>
             <div className="grid lg:grid-cols-2 gap-16 items-center">
-              <div>
+              <div className="order-last lg:order-first">
                 <ProductShot
                   src="/landing/ReviewsQnt.png"
                   alt="KPIs e métricas de reputação"
                 />
               </div>
-              <div>
+              <div className="order-first lg:order-last">
                 <h3 className="text-3xl font-bold text-gray-900 mb-4 tracking-tight">
                   Melhore a sua avaliação no Google
                 </h3>
@@ -591,7 +591,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-8 px-4 sm:px-6 lg:px-8 border-t border-zinc-200">
         <div className="container mx-auto max-w-7xl text-center text-zinc-600 text-sm">
-          <p>© 2024 VozLocal. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} VozLocal. Todos os direitos reservados.</p>
         </div>
       </footer>
     </main>
