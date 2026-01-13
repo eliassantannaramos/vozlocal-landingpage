@@ -122,25 +122,25 @@ export default function Home() {
       <main className="min-h-screen bg-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-zinc-100">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
-            <div className="flex items-center gap-3">
+        <div className="container mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-14 sm:h-16 gap-1.5 sm:gap-3">
+            <div className="flex items-center gap-1.5 sm:gap-3 min-w-0 flex-shrink">
               <Image
                 src="/images/vozlocal-icon.png"
                 alt="VozLocal"
                 width={576}
                 height={433}
-                className="h-8 w-auto"
+                className="h-5 sm:h-8 w-auto flex-shrink-0"
                 style={{ objectFit: 'contain' }}
                 priority
               />
-              <span className="text-2xl font-bold text-purple-600 tracking-tight">VozLocal</span>
+              <span className="text-base sm:text-2xl font-bold text-purple-600 tracking-tight truncate">VozLocal</span>
             </div>
             <button
               onClick={scrollToForm}
-              className="px-6 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors font-medium text-sm shadow-sm hover:shadow-md"
+              className="px-2.5 py-1.5 sm:px-6 sm:py-2 bg-purple-600 text-white rounded-md sm:rounded-lg hover:bg-purple-700 transition-colors font-medium text-[11px] sm:text-sm shadow-sm hover:shadow-md whitespace-nowrap flex-shrink-0 leading-tight"
             >
-              Entrar na lista de espera
+              Acesso antecipado
             </button>
           </div>
         </div>
@@ -200,7 +200,7 @@ export default function Home() {
                     disabled={isSubmitting}
                     className="w-full sm:w-auto px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-lg hover:from-purple-700 hover:to-purple-800 transition-all font-medium disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
                   >
-                    {isSubmitting ? "A processar..." : "Pedir acesso antecipado"}
+                    {isSubmitting ? "A processar..." : "Acesso antecipado"}
                   </button>
                   {/* Mensagem de Early Access */}
                   <div className="space-y-2">
@@ -263,8 +263,8 @@ export default function Home() {
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
               O Produto
             </h2>
-            <p className="text-lg sm:text-xl text-zinc-600 max-w-2xl mx-auto">
-              Recolha os seus Google Reviews, compreenda o que os clientes pensam e aja com respostas inteligentes que melhoram a sua reputação.
+            <p className="text-base sm:text-lg text-zinc-600 max-w-3xl mx-auto leading-relaxed">
+              O VozLocal ajuda negócios locais a gerir os seus Google Reviews de forma simples e eficiente. Num único painel, pode acompanhar novos reviews, entender padrões de sentimento e responder com rapidez, transformando feedback em ações concretas para melhorar a sua reputação no Google.
             </p>
           </div>
 
@@ -547,7 +547,7 @@ export default function Home() {
                   disabled={isSubmitting}
                   className="w-full px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-700 text-white rounded-lg hover:from-purple-700 hover:to-purple-800 transition-all font-medium disabled:opacity-50 disabled:cursor-not-allowed shadow-lg hover:shadow-xl"
                 >
-                  {isSubmitting ? "A processar..." : "Entrar na lista de espera"}
+                  {isSubmitting ? "A processar..." : "Pedir acesso antecipado"}
                 </button>
                 {/* Mensagem de Early Adopters */}
                 <div className="space-y-2 text-center">
