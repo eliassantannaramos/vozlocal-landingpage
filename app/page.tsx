@@ -35,6 +35,7 @@ const ClockIcon = ({ className }: { className?: string }) => (
 
 import { BrowserFrame } from "@/components/BrowserFrame";
 import { ProductShot } from "@/components/ProductShot";
+import { StructuredData } from "@/components/StructuredData";
 
 export default function Home() {
   const [email, setEmail] = useState("");
@@ -116,12 +117,23 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen bg-white">
+    <>
+      <StructuredData />
+      <main className="min-h-screen bg-white">
       {/* Header */}
       <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm border-b border-zinc-100">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex items-center">
+            <div className="flex items-center gap-3">
+              <Image
+                src="/images/vozlocal-icon.png"
+                alt="VozLocal"
+                width={576}
+                height={433}
+                className="h-8 w-auto"
+                style={{ objectFit: 'contain' }}
+                priority
+              />
               <span className="text-2xl font-bold text-purple-600 tracking-tight">VozLocal</span>
             </div>
             <button
@@ -232,6 +244,7 @@ export default function Home() {
                     playsInline
                     poster="/landing/pagina_review.png"
                     className="w-full h-auto"
+                    aria-label="Demonstração da plataforma VozLocal mostrando gestão de reviews"
                   >
                     <source src="/landing/ReviewsDetailsDemo.mov" type="video/quicktime" />
                   </video>
@@ -606,5 +619,6 @@ export default function Home() {
         </div>
       </footer>
     </main>
+    </>
   );
 }
