@@ -152,10 +152,10 @@ export default function Home() {
           <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
             <div className="space-y-6 sm:space-y-8 max-w-xl">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-gray-900 leading-[1.05] tracking-tight">
-                Melhore a sua avaliação no Google com IA
+                Pare de adivinhar. Saiba onde agir.
               </h1>
               <p className="text-lg sm:text-xl text-zinc-600 leading-relaxed">
-                Responda melhor aos Google Reviews e compreenda o que os seus clientes pensam — sem perder horas todas as semanas.
+                Direcionamento claro baseado no que os clientes realmente dizem. Saiba onde agir primeiro e melhore a sua reputação com ações concretas.
               </p>
               
               {/* Waitlist Form */}
@@ -208,7 +208,7 @@ export default function Home() {
                       <span className="text-purple-700 font-semibold text-sm">Acesso antecipado</span>
                     </div>
                     <p className="text-sm text-zinc-600">
-                      Acesso antecipado e condições especiais para negócios locais.
+                      Acesso antecipado e condições especiais para o seu negócio.
                     </p>
                   </div>
                 </div>
@@ -247,12 +247,23 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Secção de Framing - Contexto do Problema */}
+      {/* Secção O Problema */}
       <section className="py-10 sm:py-14 lg:py-16 px-4 sm:px-6 lg:px-8 bg-zinc-50">
-        <div className="container mx-auto max-w-4xl text-center">
-          <p className="text-2xl lg:text-3xl font-medium text-gray-900 leading-relaxed">
-            Recolha os seus Google Reviews, compreenda o que os clientes pensam e aja com respostas inteligentes que melhoram a sua reputação.
-          </p>
+        <div className="container mx-auto max-w-4xl">
+          <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-6 sm:mb-8 text-center tracking-tight">
+            O problema real
+          </h2>
+          <div className="max-w-2xl mx-auto space-y-4 text-base sm:text-lg text-zinc-700 leading-relaxed">
+            <p>
+              Ter uma nota de 4.2 ou 4.8 no Google diz-lhe como está a sua reputação, mas não lhe diz o que fazer a seguir.
+            </p>
+            <p>
+              As reclamações começam pequenas. Quando dá por isso, já são várias pessoas a dizer a mesma coisa — e a sua nota começa a cair.
+            </p>
+            <p>
+              Um cliente queixa-se do tempo de espera, outro do ruído, outro da limpeza. Onde é que deve mexer primeiro? Sem organização, é fácil perder o que realmente importa.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -261,11 +272,37 @@ export default function Home() {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12 sm:mb-16 lg:mb-20">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-              O Produto
+              Direcionamento claro, baseado no que os clientes realmente dizem
             </h2>
             <p className="text-base sm:text-lg text-zinc-600 max-w-3xl mx-auto leading-relaxed">
-              O VozLocal ajuda negócios locais a gerir os seus Google Reviews de forma simples e eficiente. Num único painel, pode acompanhar novos reviews, entender padrões de sentimento e responder com rapidez, transformando feedback em ações concretas para melhorar a sua reputação no Google.
+              Transforme feedback solto em direcionamento claro. Identifique o que mais afasta clientes e resolva antes que vire hábito.
             </p>
+            <ul className="mt-8 space-y-4 max-w-2xl mx-auto text-left">
+              <li className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center mt-0.5">
+                  <span className="text-purple-600 text-sm font-bold">•</span>
+                </div>
+                <p className="text-base sm:text-lg text-zinc-700 leading-relaxed">
+                  Corrija antes que vire hábito. Quando várias pessoas reclamam da mesma coisa, deixa de ser azar e passa a afetar a sua reputação.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center mt-0.5">
+                  <span className="text-purple-600 text-sm font-bold">•</span>
+                </div>
+                <p className="text-base sm:text-lg text-zinc-700 leading-relaxed">
+                  Ataque o que mais afasta clientes agora, não o que faz mais barulho.
+                </p>
+              </li>
+              <li className="flex items-start gap-3">
+                <div className="flex-shrink-0 w-6 h-6 rounded-full bg-purple-100 flex items-center justify-center mt-0.5">
+                  <span className="text-purple-600 text-sm font-bold">•</span>
+                </div>
+                <p className="text-base sm:text-lg text-zinc-700 leading-relaxed">
+                  Resolva o que realmente impacta a reputação e a sua nota melhora naturalmente.
+                </p>
+              </li>
+            </ul>
           </div>
 
           {/* Módulo 1: Recolher Google Reviews */}
@@ -273,10 +310,10 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                  Os seus Google Reviews organizados
+                  Todos os seus Google Reviews num só lugar
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
-                  Veja todos os seus Google Reviews num único painel. Organize, filtre e encontre rapidamente o que procura, sem perder tempo.
+                  Evite perder tempo a ler review por review. Identifique o que mais incomoda os clientes e decida onde agir.
                 </p>
               </div>
               <div>
@@ -300,10 +337,10 @@ export default function Home() {
               </div>
               <div className="order-first lg:order-last">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                  Compreenda o que os clientes realmente pensam
+                  Identifique o que está a piorar ou a melhorar
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
-                  Acompanhe sentimentos, temas recorrentes e métricas ao longo do tempo para saber onde melhorar e aumentar a sua classificação no Google.
+                  Quando os clientes reclamam dos mesmos pontos, já não é pontual. Descubra o que está a melhorar e o que precisa da sua atenção agora.
                 </p>
               </div>
             </div>
@@ -314,11 +351,10 @@ export default function Home() {
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div>
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                  Respostas com IA em segundos
+                  Responda com clareza, sem ter de pensar do zero
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
-                  Responda aos seus Google Reviews em segundos com respostas personalizadas geradas por IA. 
-                  Adapte o tom de voz e o comprimento, e publique diretamente no Google. Pronto em segundos, não em horas.
+                  Respostas que têm em conta o que o cliente disse. Mantém o tom do seu negócio. Adapte e publique diretamente no Google.
                 </p>
               </div>
               <div>
@@ -341,11 +377,10 @@ export default function Home() {
               </div>
               <div className="order-first lg:order-last">
                 <h3 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                  Melhore a sua avaliação no Google
+                  Corrija antes que um problema ganhe impacto
                 </h3>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mb-4 sm:mb-6">
-                  Acompanhe métricas essenciais como classificação média, taxa de resposta e tempo médio de resposta nos seus Google Reviews. 
-                  Veja como a sua avaliação no Google evolui ao longo do tempo e identifique tendências que ajudam a melhorar a sua reputação.
+                  Receba avisos quando os clientes começam a reclamar dos mesmos pontos. Resolva antes que se torne um problema maior — a sua reputação melhora quando resolve o que realmente incomoda os clientes.
                 </p>
               </div>
             </div>
@@ -361,7 +396,7 @@ export default function Home() {
               O que dizem os primeiros utilizadores
             </h2>
             <p className="text-lg sm:text-xl text-zinc-600">
-              Negócios que já estão a usar o VozLocal estão a ver melhorias na gestão da sua reputação
+              Quem usa o VozLocal deixa de adivinhar e passa a saber onde agir para melhorar a reputação.
             </p>
           </div>
 
@@ -376,7 +411,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-zinc-700 mb-4 leading-relaxed">
-                "Finalmente consigo ver todos os meus Google Reviews num só lugar. A resposta com IA poupa-me horas todos os dias."
+                "Finalmente algo que me diz exatamente onde melhorar, em vez de me mostrar mais dados. Poupa-me horas e ajuda-me a focar no que realmente importa."
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
@@ -399,7 +434,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-zinc-700 mb-4 leading-relaxed">
-                "Os alertas automáticos são incríveis. Agora não perco nenhum Google Review negativo e consigo responder rapidamente."
+                "Deixa de ser adivinhar. Agora sei exatamente onde estão os principais problemas e onde devo focar para melhorar a experiência dos clientes."
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
@@ -422,7 +457,7 @@ export default function Home() {
                 ))}
               </div>
               <p className="text-zinc-700 mb-4 leading-relaxed">
-                "A análise de sentimentos ajuda-me a perceber o que os clientes realmente pensam. Muito útil para melhorar o serviço."
+                "Entendo os principais motivos de reclamação e decido onde agir primeiro. Melhorei a reputação porque resolvi o que realmente incomodava os clientes."
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center">
@@ -444,14 +479,14 @@ export default function Home() {
           <div className="bg-gradient-to-br from-purple-50 to-white rounded-2xl border border-purple-100 p-6 sm:p-8 lg:p-12">
             <div className="text-center mb-6 sm:mb-8">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                Tudo o que precisa para melhorar a sua avaliação no Google
+                Direcionamento claro para melhorar a sua reputação
               </h2>
               <p className="text-lg sm:text-xl text-zinc-600 mb-4 sm:mb-6">
-                Responda mais rápido, compreenda padrões e melhore a sua reputação no Google com decisões mais informadas.
+                Identifique o que mais afasta clientes e resolva antes que vire hábito. A reputação melhora quando resolve o que realmente importa.
               </p>
               {/* Mensagem neutra sobre planos */}
               <p className="text-base text-zinc-600">
-                Pensado para PMEs locais. Planos simples e acessíveis para negócios locais que querem melhorar a sua reputação no Google sem complicações técnicas.
+                Pensado para o seu negócio. Planos simples e acessíveis para quem quer melhorar a reputação sem complicações técnicas.
               </p>
             </div>
             <div className="grid md:grid-cols-3 gap-6">
@@ -460,10 +495,10 @@ export default function Home() {
                   <ZapIcon className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Respostas com IA em segundos
+                  Responda com clareza, sem ter de pensar do zero
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Gere respostas personalizadas com IA, ajustadas ao tom do seu negócio, para elogios e críticas. Poupe tempo e mantenha uma comunicação profissional.
+                  Respostas que têm em conta o que o cliente disse, mantendo o tom do seu negócio. Poupe tempo e mantenha uma comunicação profissional.
                 </p>
               </div>
               <div className="bg-white rounded-xl border border-zinc-200 p-6 shadow-sm">
@@ -471,10 +506,10 @@ export default function Home() {
                   <CheckCircle2Icon className="w-6 h-6 text-purple-600" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  Contexto e pontos-chave em cada review
+                  Respostas com contexto do que o cliente disse
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  A nossa IA identifica automaticamente os pontos principais de cada Google Review para responder com mais precisão e consistência.
+                  Veja o que o cliente destacou em cada Google Review para responder com precisão.
                 </p>
               </div>
               <div className="bg-white rounded-xl border border-zinc-200 p-6 shadow-sm">
@@ -485,7 +520,7 @@ export default function Home() {
                   Os seus Google Reviews organizados
                 </h3>
                 <p className="text-zinc-600 text-sm leading-relaxed">
-                  Veja todos os seus Google Reviews num painel simples e organizado, para encontrar rapidamente o que precisa e não perder nenhum feedback importante.
+                  Todos os seus Google Reviews organizados num só lugar. Identifique o que precisa da sua atenção e decida onde melhorar.
                 </p>
               </div>
             </div>
@@ -499,10 +534,10 @@ export default function Home() {
           <div className="bg-white rounded-2xl border border-zinc-200 shadow-xl p-6 sm:p-8 lg:p-12">
             <div className="text-center mb-6 sm:mb-8">
               <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-3 sm:mb-4 tracking-tight">
-                Estamos a abrir acesso antecipado
+                Pare de adivinhar. Saiba onde agir.
               </h2>
               <p className="text-lg sm:text-xl text-zinc-600 mb-2">
-                Estamos a convidar um número limitado de negócios locais para testar o VozLocal antes do lançamento público.
+                Identifique o que mais afasta clientes e resolva antes que vire hábito. A reputação melhora quando resolve o que realmente importa.
               </p>
             </div>
             
